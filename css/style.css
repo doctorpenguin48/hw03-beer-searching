@@ -1,0 +1,114 @@
+body {
+    background-color: #999999;
+	background-image: url("https://i.ytimg.com/vi/l0dYiUsBeck/maxresdefault.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center; 
+}
+
+.search_box {
+    width: 50%;
+    min-height: 75px;
+    height: 175px;
+    background-color: #000000;
+    margin: 30px auto 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search_icon {
+    background-color: coral;
+    width: 90px;
+    height: 25px;
+    margin: -10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #EEEEEE;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.search_type {
+    margin-top: 20px;
+}
+
+th {
+    padding: 5px;
+}
+
+.cell_padding {
+    padding: 10px;
+}
+
+.search_header {
+    width: 150px;
+    padding-left: 25px;
+}
+
+.search_area {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0px auto auto auto;
+    text-align: left;
+	color: white;
+}
+
+.search_input {
+    width: 95%;
+}
+
+#table_result {
+    background-color: #fc8200;
+    width: 50%;
+    margin: 30px auto auto auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn_search {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.button_search {
+    width: 100%;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
